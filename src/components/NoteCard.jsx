@@ -1,5 +1,5 @@
 import { Earth, LockKeyhole } from "lucide-react";
-import { useAuthState } from "../Contextapi/Authstate";
+import { useAuthState } from "../contextapi/Authstate";
 import { errorEmitter, successEmitter } from "../Toastify.Emmiter";
 import { BASEURLS } from "../BaseUrls";
 import EditNotesModal from "./EditNoteModal";

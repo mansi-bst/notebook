@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { BASEURLS } from "./../BaseUrls";
+import { BASEURLS } from "../BaseUrls";
 import { errorEmitter, successEmitter } from "../Toastify.Emmiter";
 
 export const authContext = createContext(null);
