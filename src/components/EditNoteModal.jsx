@@ -1,7 +1,7 @@
 import Modal from "@mui/material/Modal";
 import { useState } from "react";
 import CreatableSelect from "react-select/creatable";
-import { useNoteState } from "../contextapi/NoteState";
+import { NoteState } from "../contextapi/NoteState";
 
 function EditNotesModal({
   open,
